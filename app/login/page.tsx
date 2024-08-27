@@ -84,6 +84,12 @@ const LoginPage = () => {
           <Tabs.Panel value="faculty">
             <Construct />
           </Tabs.Panel>
+          <Tabs.Panel value="parent">
+            <Construct />
+          </Tabs.Panel>
+          <Tabs.Panel value="alumni">
+            <Construct />
+          </Tabs.Panel>
         </Tabs>
       </Stack>
     </Flex>
