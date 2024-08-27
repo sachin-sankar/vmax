@@ -9,6 +9,7 @@ import {
   Input,
   PasswordInput,
   Group,
+  TabsPanel,
 } from "@mantine/core";
 import React from "react";
 import Logo from "../components/Logo";
@@ -19,6 +20,7 @@ import {
   IconUserHeart,
   IconLogin,
 } from "@tabler/icons-react";
+import Construct from "../components/Construct";
 const LoginPage = () => {
   return (
     <Flex className="h-screen gap-2">
@@ -78,6 +80,9 @@ const LoginPage = () => {
                 </Button>
               </div>
             </Stack>
+          </Tabs.Panel>
+          <Tabs.Panel value="faculty">
+            <Construct />
           </Tabs.Panel>
         </Tabs>
       </Stack>
