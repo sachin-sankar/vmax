@@ -76,7 +76,31 @@ const LoginPage = () => {
             </Stack>
           </Tabs.Panel>
           <Tabs.Panel value="faculty">
-            <Construct />
+            <Stack className="p-5">
+              <Title order={2}>Login as Faculty</Title>
+              <Input.Wrapper
+                className="w-5/12"
+                label="Empolyee ID"
+                description="Your Empolyee ID"
+                error=""
+                size="lg"
+              >
+                <Input placeholder="" variant="filled" size="lg" />
+              </Input.Wrapper>
+              <PasswordInput
+                className="w-5/12"
+                variant="filled"
+                size="lg"
+                label="Password"
+                description="Enter your VMAX password."
+                placeholder=""
+              />
+              <div className="w-5/12">
+                <Button size="lg" fullWidth rightSection={<IconLogin />}>
+                  Login
+                </Button>
+              </div>
+            </Stack>
           </Tabs.Panel>
         </Tabs>
       </Stack>
