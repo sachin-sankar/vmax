@@ -47,12 +47,6 @@ const LoginPage = () => {
             <Tabs.Tab value="faculty" leftSection={<IconUserScreen />}>
               Faculty
             </Tabs.Tab>
-            <Tabs.Tab value="parent" leftSection={<IconUserHeart />}>
-              Parent
-            </Tabs.Tab>
-            <Tabs.Tab value="alumni" leftSection={<IconSchool />}>
-              Alumni
-            </Tabs.Tab>
           </Tabs.List>
           <Tabs.Panel value="student">
             <Stack className="p-5">
@@ -82,12 +76,6 @@ const LoginPage = () => {
             </Stack>
           </Tabs.Panel>
           <Tabs.Panel value="faculty">
-            <Construct />
-          </Tabs.Panel>
-          <Tabs.Panel value="parent">
-            <Construct />
-          </Tabs.Panel>
-          <Tabs.Panel value="alumni">
             <Construct />
           </Tabs.Panel>
         </Tabs>
